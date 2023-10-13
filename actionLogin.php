@@ -6,14 +6,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     $ql = "SELECT id,username,password FROM users WHERE username ='$username'";
-    $result = $conn->query($sql);
+    $result = $koneksi->query($sql);
     
     if($result->num_rows == 1) {
         $row = $result->fetch_assoc();
         if(password_verify($password, $row["password"])) {
             $_SESSION["id"]  =  $row["id"];
             $_SESSION["username"]  =  $row["username"];
-            $conn->close();
+            $koneksi->close();
             header("location: dashboard.php");
             exit();
         }else{

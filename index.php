@@ -25,7 +25,6 @@
                             <input 
                                 class="form-control"
                                 type="text"
-                                id="username"
                                 name="username"
                                 placeholder="Username"
                                 autofocus
@@ -33,7 +32,6 @@
                             <input 
                                 class="form-control mt-3"
                                 type="password"
-                                id="password"
                                 name="password"
                                 placeholder="Password"
                                 autofocus
@@ -48,7 +46,6 @@
                             <input 
                                 class="form-control"
                                 type="text"
-                                id="regUsername"
                                 name="regUsername"
                                 placeholder="Username register"
                                 autofocus
@@ -56,7 +53,6 @@
                             <input 
                                 class="form-control mt-3"
                                 type="password"
-                                id="regPassword"
                                 name="regPassword"
                                 placeholder="Password register"
                                 autofocus
