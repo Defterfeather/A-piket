@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url("img/wallpaperflare.com_wallpaper.jpg") no-repeat center center fixed;
+    background: url("img/blue\ night💙.jpg") no-repeat center center fixed;
     background-size: cover;
     align-items: center;
     /* background-image: linear-gradient(to right, #004aad 10%,#cb6ce6 100%); */
@@ -12,61 +12,54 @@ body {
     display: flex;
     /* animation : animation 3s infinite alternate; */
     Justify-content: center;
-}
-
-.ruang {
+    }
+    
+    
+    .ruang {
     background: transparent;
     border: 2px solid rgba(255,255,255,0.5);
     padding: 20px;
     border-radius: 20px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     width: 700px;
     text-align: center;
-}
-
-.ruang > h2 {
+    }
+    
+    .ruang > h2 {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #007bff;
-}
-
-.ruang >.row {
-    width: 98%;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #9908ff;
-    border-radius: 5px;
-}
-
-.ruang  >.buton {
+    }
+    
+    .ruang  >.buton {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-
     cursor: pointer;
-}
-
- .ruang >.buton:hover {
-        background-color: #005663;
-
     }
-
+    
+    .ruang >.buton:hover {
+        background-color: #005663;
+    
+    }
+    
     @media (max-width: 1280px) {
         .ruang {
-            width: 60%;
+            width: 30%;
         }
     }
-
+    
     @media (max-height:720px) {
         .ruang{
-            height: 90%;
+            height: 80%;
         }
     }
-
-.ruang > .tanggal{
+    
+    .ruang > .tanggal{
     position: fixed;
-}
+    }
+    
