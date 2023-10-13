@@ -18,7 +18,7 @@
                 <div class="card border-0 shadow rounded">
                     <div class="card-body" >
                         <div class="row">
-                            <form action="proses-login.php" id="loginForm" method="POST">
+                            <form action="actionLogin.php" id="loginForm" method="POST">
                             <div class="card-header">
                                 <strong>Login</strong>
                             </div>
