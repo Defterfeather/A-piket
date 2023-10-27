@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION["id"] = $row["id"];
             $_SESSION["username"] = $row["username"];
             $koneksi->close();
-            header("location: dashboard.php");
+            header("location: piket.php");
             exit();
         } else {
             echo "<script>alert('invalid password');</script>";
